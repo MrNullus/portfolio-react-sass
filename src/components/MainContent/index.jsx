@@ -1,13 +1,12 @@
-
+import './style.sass'
 
 export const MainContent = () => {
 
-	
 
 	return (
-		<div>
+		<main id="main-content">
 			
-		</div>
+		</main>
 	);
 
 }
