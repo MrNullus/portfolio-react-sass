@@ -1,15 +1,15 @@
 import { Sidebar } from '../../components/Sidebar';
 import { MainContent } from '../../components/MainContent';
 
-import './app.sass';
+import './style.sass';
 
 export function App() {
 
 
-  return (
+  return (                
     <div id="portifolio">
 
-      <h1>React + SASS</h1>
+      <h1>Gustavo Henrique | Ms. Nullus</h1>
 
       <Sidebar />
       <MainContent />
