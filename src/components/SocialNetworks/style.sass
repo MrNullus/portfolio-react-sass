@@ -1,32 +1,34 @@
-@use '../../styles/_variables.sass'
-@use '../../styles/_mixins.sass'
-
+@use '../../styles/_variables'
+@use '../../styles/_mixins' 
+    
 #social-networks
-	@include mixins.center
-	gap: 1rem
-	margin: 1rem 0
+    @include mixins.center
+    gap: 1rem
+    margin: 1rem 0
 
-	.social-btn
-		padding: 6rem
-		background: variables.$bg-color-secondary
-		border-radius: variables.$card-border-radius
-		color: #333
-		font-size: 1.3rem
-		@include mixins.center
+    .social-btn
+        padding: .6em
+        background-color: variables.$bg-color-secondary
+        border-radius: variables.$card-border-radius
+        color: #333
+        font-size: 1.3rem
+        @include mixins.center
 
-	#linkedin
-		color: #0071B1
+    #linkedin
+        color: #0072e1
 
-	#github
-		color: #111
+    #github
+        color: rgba(0, 0, 0, 1)
 
-	#instagram
-		color: #BC2A8D
+    #instagram
+        color: #bc2a8d
 
-	#twitter
-		color: #0071C4
+    #twitter
+        color: #0072a1
 
-	:hover
-		background: variables.$gradient
-		> svg
-			color: variables.$text-color
+    :hover
+        background: variables.$gradient
+        > svg
+            color: variables.$text-color
+
+        

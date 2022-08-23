@@ -1,6 +1,7 @@
 import Avatar from '../../img/user.png';
 
-import { SocialNetworks } from '../SocialNetWorks'
+import { SocialNetworks } from '../SocialNetworks'
+import { InformationContainer } from '../InformationContainer';
 
 import './style.sass';
 
@@ -17,11 +18,12 @@ export const Sidebar = () => {
 
 			<SocialNetworks />
 
-			<p>Informações de contato</p>
+			<InformationContainer />
 
 			<a href="#" className="btn" role="button" aria-label="download curriculum">
 				Download do Curriculo
 			</a>
 		</aside>
-	)
-}
+	);
+
+};

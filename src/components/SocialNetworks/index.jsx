@@ -9,7 +9,8 @@ const listSocialNetworks = [
 	{ name: "twitter", icon: <FaTwitter /> }
 ];
 
-export const SocialNetWorks = () => {
+export const SocialNetworks = () => {
+
 	return (
 		<section id="social-networks">
 			{listSocialNetworks.map(( network ) => (
@@ -23,4 +24,5 @@ export const SocialNetWorks = () => {
 			))}
 		</section>
 	);
+
 };
