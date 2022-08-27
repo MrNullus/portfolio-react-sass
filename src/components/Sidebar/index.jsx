@@ -13,7 +13,7 @@ export const Sidebar = () => {
 			<img src={Avatar} alt="Gustavo Henrique" />
 
 			<p className="title">
-				Desenvoledor Fron-End && Back-End <br/><br/>
+				Dev Fron-End && Back-End <br/><br/>
 				Nickname: <span className="nick">Ms. Nullus</span>
 			</p>
 
@@ -27,7 +27,7 @@ export const Sidebar = () => {
 				className="btn" 
 				role="button" 
 				aria-label="download curriculum">
-				Download do Curriculo
+				Download Curriculum
 			</a>
 		</aside>
 	);

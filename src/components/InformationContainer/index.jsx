@@ -5,7 +5,7 @@ import './styles.sass';
 const informations = [
 	{ 
 		id: 0, icon: <AiFillPhone id="phone-icon" />, 
-		details: { title: "Telefone", content: "55+ (11) 98597-6152" }
+		details: { title: "Phone", content: "55+ (11) 98597-6152" }
 	},
 	{ 
 		id: 1, icon: <AiOutlineMail id="mail-icon" />, 
@@ -13,7 +13,7 @@ const informations = [
 	},
 	{ 
 		id: 2, icon: <AiFillEnvironment id="pin-icon" />, 
-		details: { title: "Localização", content: "SP - SP, Brasil" }
+		details: { title: "Location", content: "SP - SP, Brazil" }
 	}
 ];
 
