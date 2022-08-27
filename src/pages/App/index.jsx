@@ -9,7 +9,7 @@ export function App() {
   return (                
     <div id="portifolio">
 
-      <h1>Gustavo Henrique | Ms. Nullus</h1>
+      <h1>Gustavo Henrique</h1>
 
       <Sidebar />
       <MainContent />

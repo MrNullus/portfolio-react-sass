@@ -4,16 +4,14 @@ export const AboutContainer = () => {
 
 	return (
 		<section id="about-container">
-
-			<h2>Sobre</h2>
+			<h2>👾 About me</h2>
 
 			<p>
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam omnis corrupti sapiente. Rem repellat dignissimos esse necessitatibus a quibusdam. Eum magnam beatae possimus ullam eligendi necessitatibus dolore ducimus architecto velit?
+				My name is Gustavo, I'm Brazilian and I'm a programming enthusiast. I am an obstinate person who is always looking for more and more challenges, seeking excellence and adding more value to what I do.
 			</p>
 			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, minima. Vero inventore cupiditate id quibusdam tempore numquam alias, eaque quod excepturi dolor explicabo fugit nisi quam dolores ab rem quos!
+				Focused on being a Full Stack developer 🐱‍💻 (having knowledge of front-end and back-end technologies) and looking to venture further into mobile.
 			</p>
-			
 		</section>
 	);
 

@@ -2,8 +2,11 @@
 @use '../../styles/_mixins.sass'
 
 #main-content
-	background-color: variables.$bg-color
+	display: flex
 	flex: 2 1 0
+	gap: 1rem
+	flex-direction: column
+	background-color: variables.$bg-color
 	padding: 3rem
 	border-radius: variables.$container-border-radius
 
@@ -21,3 +24,12 @@
 
 		&::after 
 			@include mixins.gradient-border
+
+	p
+		color: variables.$text-color-secondary
+		margin-bottom: 1rem
+		line-height: 1.4rem
+
+	.btn
+		@include mixins.btn
+		align-self: start
