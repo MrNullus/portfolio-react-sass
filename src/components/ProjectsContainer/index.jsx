@@ -10,7 +10,7 @@ export const ProjectsContainer = () => {
 				Get to know my projects that I have done, implementing all the technologies that I master and that I am learning.
 			</p>
 			<p>
-				Made with 💜 by Gustavo Henrique | Ms Nullus
+				Made with 💜 by Gustavo Henrique | Mr Nullus
 			</p>
 
 			<a 
