@@ -14,7 +14,7 @@ export const Sidebar = () => {
 
 			<p className="title">
 				Dev Fron-End && Back-End <br/><br/>
-				Nickname: <span className="nick">Ms. Nullus</span>
+				Nickname: <span className="nick">Mr. Nullus</span>
 			</p>
 
 			<SocialNetworks />
