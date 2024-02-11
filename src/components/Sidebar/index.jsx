@@ -13,7 +13,7 @@ export const Sidebar = () => {
 			<img src={Avatar} alt="Gustavo Henrique" />
 
 			<p className="title">
-				Dev Fron-End && Back-End <br/><br/>
+				FullStack Developer<br/><br/>
 				Nickname: <span className="nick">Mr. Nullus</span>
 			</p>
 
@@ -22,9 +22,9 @@ export const Sidebar = () => {
 			<InformationContainer />
 
 			<a 
-				href="../../../public/curriculum.pdf" 
-				download 
+				href="../../../Curriculo - Gustavo Henrique.pdf" 
 				className="btn" 
+				download={true}
 				role="button" 
 				aria-label="download curriculum">
 				Download Curriculum
