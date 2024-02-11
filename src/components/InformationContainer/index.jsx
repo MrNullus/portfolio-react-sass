@@ -1,4 +1,5 @@
 import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from 'react-icons/ai';
+import { MdOutlineMailOutline } from "react-icons/md";
 
 import './styles.sass';
 
@@ -8,11 +9,7 @@ const informations = [
 		details: { title: "Phone", content: "55+ (11) 98597-6152" }
 	},
 	{ 
-		id: 1, icon: <AiOutlineMail id="mail-icon" />, 
-		details: { title: "Email", content: "gustavojs417@gmail.com" }
-	},
-	{ 
-		id: 2, icon: <AiFillEnvironment id="pin-icon" />, 
+		id: 1, icon: <AiFillEnvironment id="pin-icon" />, 
 		details: { title: "Location", content: "SP - SP, Brazil" }
 	}
 ];
@@ -32,7 +29,17 @@ export const InformationContainer = () => {
 					</div>
 				</div>
 			))}
-
+            
+			<div className="info-card">
+			    <div>
+					<h3>
+						Email
+					</h3>
+					<p>
+			            gustavojs417@gmail.com
+					</p>
+				</div>
+			</div>
 		</section>
 	);
 
