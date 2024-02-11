@@ -3,10 +3,10 @@ import { FaLinkedinIn, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
 import './style.sass';
 
 const listSocialNetworks = [
-	{ name: "linkedin", icon: <FaLinkedinIn />, link: 'linkedin.com/dev-punk-da-silva' },
-	{ name: "github", icon: <FaGithub />, link: 'github.com/MrNullus' },
-	{ name: "instagram", icon: <FaInstagram />, link: 'instagram.com/punk.da.silva' },
-	{ name: "twitter", icon: <FaTwitter />, link: 'x.com/_MrNullus' }
+	{ name: "linkedin", icon: <FaLinkedinIn />, link: "https://www.linkedin.com/dev-punk-da-silva" },
+	{ name: "github", icon: <FaGithub />, link: "https://www.github.com/MrNullus" },
+	{ name: "instagram", icon: <FaInstagram />, link: "https://www.instagram.com/punk.da.silva" },
+	{ name: "twitter", icon: <FaTwitter />, link: "https://www.x.com/_MrNullus" }
 ];
 
 export const SocialNetworks = () => {
