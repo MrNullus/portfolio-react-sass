@@ -1,19 +1,6 @@
-import { ProjectArticle } from '../ArticleProject';
-import './style.sass';
-
-
-const projects = [
-	{
-		title: "My First Web App",
-		description: "A simple website I built to learn HTML, CSS, and JavaScript.",
-		link: "https://example.com/my-first-app",
-	},
-	{
-		title: "Personal Portfolio",
-		description: "This portfolio website showcases my skills and experience.",
-		link: "https://example.com/portfolio",
-	},
-];
+import "./style.sass";
+import { projects } from "../../data/projects";
+import { ProjectArticle } from "../ArticleProject";
 
 export const ProjectsContainer = () => {
 	return (
