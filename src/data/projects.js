@@ -24,6 +24,16 @@ const projects = [
 		description: "HDCHost is an landing page for enterprise of host and domain web project",
 		link: "https://hdchost.vercel.app/",
 	},
+	{
+		title: "Easy Bank",
+		description: "Easy Bank Project - HTML5 & CSS3 + Sass (Using Flexbox, Grid and Responsive Layout) & JS",
+		link: "https://ieasybank.netlify.app/",
+	},
+	{
+		title: "Docinhos da Thay",
+		description: "Project created for a sweetshop, complete with HTML, CSS, JavaScript, jQuery",
+		link: "https://docinhos-da-thay.netlify.app/",
+	},
     {
 		title: "Doceria Velha Infância",
 		description: "This is a web site for promotional candy shop",
@@ -43,6 +53,26 @@ const projects = [
 		title: "Shop JVJ",
 		description: "JVJ is a fully responsive ecommerce website, maximum compatiblities in all mobile devices, built using HTML, CSS, and JavaScript.",
 		link: "https://shop-jvj.vercel.app/",
+	},
+	{
+		title: "Acme",
+		description: "Project made in HTML and CSS at DIO bootcamp",
+		link: "https://mrnullus.github.io/HTML-CSS-DIO/",
+	},
+	{
+		title: "ioGalery",
+		description: "System gallery make in React & TypeScript and using for database the Firebase",
+		link: "https://gallery-react-typescript.vercel.app/",
+	},
+	{
+		title: "React Search",
+		description: "In this project I put into practice ways of doing research with React.Being them: Simple search locally, With Database, With API",
+		link: "https://react-search-sand.vercel.app/",
+	},
+	{
+		title: "MyGatsby",
+		description: "MyGatsby, which will be a HTML, CSS and JS code generator. It will soon move on to other stacks such as Python with Django, PHP (CodeIgniter and/or Laravel), etc...",
+		link: "https://my-gatsby.netlify.app/",
 	},
 ];
 
